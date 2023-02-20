@@ -8,7 +8,7 @@ import tensorflow as tf
 
 app = Flask(__name__)
 
-model = tf.lite.Interpreter(model_path="model.tflite")
+model = tf.lite.Interpreter(model_path="app/model.tflite")
 
 names = [
 "A","B","Boss","C","D","E","F","Father","G","Good","H","I","J","L","M","Me","Mine","Mother","N","O","Onion","P","Q","Quiet","R","Responsible","S","Serious","T","Think","This","U","V","W","Wait","Water","X","Y","You","Z",
